@@ -8,6 +8,7 @@ from sklearn.preprocessing import StandardScaler, RobustScaler, LabelEncoder
 from sklearn.ensemble import RandomForestClassifier, AdaBoostClassifier
 from sklearn.impute import SimpleImputer
 from sklearn.metrics import accuracy_score, roc_auc_score
+from sklearn.tree import DecisionTreeClassifier
 import xgboost as xgb
 
 # Load and cache data
